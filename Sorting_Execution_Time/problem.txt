@@ -1,0 +1,31 @@
+
+
+Be sure to include the number of total swaps in each sort.
+
+Create a total_Time variable is the total time it takes all 1000 iterations to run. DO NOT INCLUE THE TIME IT TAKES TO GENERATE A UNIQUE RANDOM ARRAY EACH LOOP.
+
+In java, Write a computer program that prompts the user for one number, n for the number of items in the array to sort and create and sort 1000 different arrays of this size,  timing the run to get an average time to sort an array of this size. Then do the following:
+
+Initiate a variable running_time to 0
+
+Create a for loop that iterates 1000 times.
+
+In the body of the loop,
+
+Create an array of n random integers (Make sure you make the range of the random numbers substantially bigger than the array, ie. if the array size is 500 have the random number generator pick numbers between 1 and 5000. For the largest array have the random number generator pick numbers between 1 and 50,000).
+
+Get the time and set this to start-time (notice the sort is started after each array is built. You want to time the srt process only). You will have to figure out what the appropriate command is in the programming language you are using to find the time (Important: Do not start the timer until after the array is created).
+
+Use bubble sort to sort the array
+
+Get the time and set this to end-time Subtract start-time from end-time and add the result to total_time
+
+Once the program has run, NOTE THE FOLLOWING:
+
+The number of items sorted
+
+The average running time for each array (total_time/1000)
+
+Repeat the process using 500, 2500 and 5000 as the size of the array.
+
+Create a NEW class and repeat the process for selection sort
